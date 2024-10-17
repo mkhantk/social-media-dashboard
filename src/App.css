@@ -1,0 +1,19 @@
+body {
+	@apply font-fontBody m-0 p-0;
+}
+
+.cardsLight {
+	@apply bg-lightGrayishBlueCardBg hover:bg-darkGrayishBlueText hover:bg-opacity-20;
+}
+
+.cardsDark {
+	@apply bg-darkDesaturatedBlue hover:bg-desaturatedBlueText hover:bg-opacity-20;
+}
+/* 
+.bgLight {
+	@apply bg-gradient-to-b from-veryPaleBlueTopBg to-white [--tw-gradient-stops:from_veryPaleBlueTopBg_0%,from_veryPaleBlueTopBg_14rem,to_white];
+}
+
+.bgDark {
+	@apply bg-gradient-to-b from-veryDarkBlueTopBg to-veryDarkBlueBg [--tw-gradient-stops:from_veryDarkBlueTopBg_0%,from_veryDarkBlueTopBg_14rem,to_veryDarkBlueBg];
+} */
